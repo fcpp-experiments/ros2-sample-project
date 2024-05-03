@@ -46,7 +46,7 @@ namespace fcpp
         }
 
         //! @brief Blink color of node
-        FUN void blink_computing_color(ARGS, int n_round) { CODE
+        FUN void blink_computing_color(ARGS) { CODE
             // TODO: implement me
         }
 
@@ -381,7 +381,7 @@ namespace fcpp
         }
 
         //! @brief Manage when the user has requested a new GOAL
-        FUN void manage_action_goal(ARGS, node_type nt, goal_tuple_type const& g, status* s, int n_round) { CODE
+        FUN void manage_action_goal(ARGS, node_type nt, goal_tuple_type const& g, status* s) { CODE
             
             add_goal_to_computing_map(CALL, g);
             // make_tuple(real_t, device_t, int, make_tuple(device_t, int)):
@@ -436,7 +436,7 @@ namespace fcpp
                 // blinking colors if not running
                 if (common::get<goal_code>(g) != node.storage(node_process_goal{}) && 
                     node.storage(node_process_status{}) != ProcessingStatus::SELECTED) {
-                    blink_computing_color(CALL, n_round);
+                    blink_computing_color(CALL);
                 }
 
                 // i'm the leader!                
@@ -487,7 +487,7 @@ namespace fcpp
         // MAIN FUNCTIONS
 
         //! @brief Initialize MAIN function, selecting correct node_type
-        FUN node_type init_main_fn(ARGS, int n_round) {
+        FUN node_type init_main_fn(ARGS) {
             node_type nt;
 
             if (AP_ENGINE_DEBUG) {
@@ -673,9 +673,8 @@ namespace fcpp
         {
             // INITIALIZE VARS
             std::vector<goal_tuple_type> NewGoalsList{};
-            int n_round = fcpp::coordination::counter(CALL);
 
-            node_type nt = init_main_fn(CALL, n_round);
+            node_type nt = init_main_fn(CALL);
 
             // UPDATE DATA
             acquire_new_goals(CALL, nt, NewGoalsList);  
@@ -700,7 +699,7 @@ namespace fcpp
                     node.storage(node_ext_goal{}) == common::get<goal_code>(g)) { 
                     manage_action_abort(CALL, g, &s); 
                 } else if (GOAL_ACTION == common::get<goal_action>(g)){ 
-                    manage_action_goal(CALL, nt, g, &s, n_round); 
+                    manage_action_goal(CALL, nt, g, &s); 
                 } 
             )            
         }
