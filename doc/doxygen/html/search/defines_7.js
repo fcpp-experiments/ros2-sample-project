@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['null_5ffloat_5fvalue_787',['NULL_FLOAT_VALUE',['../poc__config_8hpp.html#afa9513cb4aa24f8670f745f22950e47b',1,'poc_config.hpp']]],
-  ['null_5fint_5fvalue_788',['NULL_INT_VALUE',['../poc__config_8hpp.html#a981c98bb56a5f845594a51d9027fc3bb',1,'poc_config.hpp']]]
+  ['ilogfree_1322',['ILOGFREE',['../log__module_8h.html#af76358de5c143e744f64ec0f7dd2cc46',1,'log_module.h']]],
+  ['input_5ffolder_5fbase_5fpath_1323',['INPUT_FOLDER_BASE_PATH',['../poc__config_8hpp.html#a47706c5310bc62f01fb31ebe921cee44',1,'poc_config.hpp']]]
 ];

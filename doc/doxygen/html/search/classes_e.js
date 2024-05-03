@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['sidex_459',['sidex',['../structfcpp_1_1coordination_1_1tags_1_1sidex.html',1,'fcpp::coordination::tags']]],
-  ['sidey_460',['sidey',['../structfcpp_1_1coordination_1_1tags_1_1sidey.html',1,'fcpp::coordination::tags']]],
-  ['speed_461',['speed',['../structfcpp_1_1coordination_1_1tags_1_1speed.html',1,'fcpp::coordination::tags']]],
-  ['store_462',['Store',['../classrobot__reader_1_1store_1_1Store.html',1,'robot_reader::store']]]
+  ['tavg_751',['tavg',['../structfcpp_1_1coordination_1_1tags_1_1tavg.html',1,'fcpp::coordination::tags']]],
+  ['tcpsocketinterfacelinux_752',['TCPSocketInterfaceLinux',['../classldlidar_1_1TCPSocketInterfaceLinux.html',1,'ldlidar']]],
+  ['tofbf_753',['Tofbf',['../classldlidar_1_1Tofbf.html',1,'ldlidar']]],
+  ['tvar_754',['tvar',['../structfcpp_1_1coordination_1_1tags_1_1tvar.html',1,'fcpp::coordination::tags']]]
 ];

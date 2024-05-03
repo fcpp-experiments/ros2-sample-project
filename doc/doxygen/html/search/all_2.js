@@ -1,11 +1,21 @@
 var searchData=
 [
-  ['battery_2epy_53',['battery.py',['../battery_8py.html',1,'']]],
-  ['battery_5fdischarged_5fwhen_5fit_5fis_5frunning_54',['battery_discharged_when_it_is_running',['../namespacefcpp_1_1coordination.html#a644784d61399509b3a1c80e3f99f8ae1',1,'fcpp::coordination']]],
-  ['battery_5fpercent_5fcharge_55',['battery_percent_charge',['../structRobotStatus.html#a611ea3c8a01f0b28db5ca8d239ce219b',1,'RobotStatus']]],
-  ['battery_5fqos_5ftopic_56',['BATTERY_QOS_TOPIC',['../namespacerobot__reader_1_1config.html#a1c0bd8993d8b86af428291def94b2750',1,'robot_reader::config']]],
-  ['battery_5ftopic_57',['BATTERY_TOPIC',['../namespacerobot__reader_1_1config.html#ab9baa8ce6d738f33807f178e431e8053',1,'robot_reader::config']]],
-  ['batterydto_58',['BatteryDTO',['../classrobot__reader_1_1battery_1_1BatteryDTO.html',1,'robot_reader::battery']]],
-  ['bg_5fimage_59',['BG_IMAGE',['../poc__config_8hpp.html#ab00704edde320076ff73845c96789fc9',1,'poc_config.hpp']]],
-  ['blink_5fcomputing_5fcolor_60',['blink_computing_color',['../namespacefcpp_1_1coordination.html#a033faba7912530beecb9611329cc2476',1,'fcpp::coordination']]]
+  ['b_57',['B',['../namespacebattery__config.html#a7c8f32cea4403e626e670bed87a65ede',1,'battery_config']]],
+  ['battery_2epy_58',['battery.py',['../battery_8py.html',1,'']]],
+  ['battery_5fconfig_59',['battery_config',['../namespacebattery__config.html',1,'']]],
+  ['battery_5fconfig_2epy_60',['battery_config.py',['../battery__config_8py.html',1,'']]],
+  ['battery_5fconsumer_5fsub_5f_61',['battery_consumer_sub_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#abd55af3b2f65653cb3ffa70477cf36c3',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5fdischarged_5fwhen_5fit_5fis_5frunning_62',['battery_discharged_when_it_is_running',['../namespacefcpp_1_1coordination.html#a644784d61399509b3a1c80e3f99f8ae1',1,'fcpp::coordination']]],
+  ['battery_5fempty_5f_63',['battery_empty_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a350b59479ea60df4488af2d9f7a6c46b',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5fpercent_5fcharge_64',['battery_percent_charge',['../structRobotStatus.html#a611ea3c8a01f0b28db5ca8d239ce219b',1,'RobotStatus']]],
+  ['battery_5fqos_5ftopic_65',['BATTERY_QOS_TOPIC',['../namespacerobot__reader_1_1config.html#a1c0bd8993d8b86af428291def94b2750',1,'robot_reader::config']]],
+  ['battery_5fstate_5f_66',['battery_state_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#ad10b6bd25f8f6fe77757f3e086b31c10',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5fstate_5fpublisher_5f_67',['battery_state_publisher_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a612194d90f1304eddea0f834b00cb3c3',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5ftopic_68',['BATTERY_TOPIC',['../namespacerobot__reader_1_1config.html#ab9baa8ce6d738f33807f178e431e8053',1,'robot_reader::config']]],
+  ['battery_5ftopic_5f_69',['battery_topic_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#ab1635481b870675f0334611a39e0c772',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5fvoltage_5fpublisher_5f_70',['battery_voltage_publisher_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a7f48103d15432f010eb6c3863f888711',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['battery_5fvoltage_5ftopic_5f_71',['battery_voltage_topic_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a7af405b6d1b6e0c2f12e20589c0c221e',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['batterydto_72',['BatteryDTO',['../classrobot__reader_1_1battery_1_1BatteryDTO.html',1,'robot_reader::battery']]],
+  ['bg_5fimage_73',['BG_IMAGE',['../poc__config_8hpp.html#ab00704edde320076ff73845c96789fc9',1,'poc_config.hpp']]],
+  ['blink_5fcomputing_5fcolor_74',['blink_computing_color',['../namespacefcpp_1_1coordination.html#a033faba7912530beecb9611329cc2476',1,'fcpp::coordination']]]
 ];

@@ -41,9 +41,11 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Enumerations", "functions_enum.html", null ],
+        [ "Enumerator", "functions_eval.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -61,9 +63,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CMakeCCompilerId_8c.html",
-"dir_d20f4ccebeee062647068714c9449d3d.html",
-"poc__config_8hpp.html#aed16d79238e2f751968ef316af882891"
+"",
+"classgoal_1_1parser_1_1GoalParser.html",
+"feedback__writer_8py.html#aab6a8fb6fcdee05e851d9930a67c5f18",
+"namespaceldlidar.html#ab76d3a30bfb2cea1715af1066e6ade29aa561d434eca3762c4cfbaee9b7dfc26c",
+"structfcpp_1_1coordination_1_1tags_1_1node__label__size.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['goal_5faction_658',['GOAL_ACTION',['../poc__config_8hpp.html#add0c338782a366f9ed6358ced53bcd48',1,'poc_config.hpp']]],
-  ['goal_5fcode_659',['goal_code',['../structRobotStatus.html#af8038497b0788a531c1178fefe33dc99',1,'RobotStatus::goal_code()'],['../structInputGoal.html#a4d62ba5044dcab6bf48992576953b2f1',1,'InputGoal::goal_code()'],['../structgoal_1_1GoalData.html#a137bc7f286ca2e2f93da2183600e668c',1,'goal::GoalData::goal_code()'],['../structaction_1_1ActionData.html#a223ce48536a6ccd31a049416c3b68054',1,'action::ActionData::goal_code()']]],
-  ['goal_5fcurrent_5fstep_660',['goal_current_step',['../structRobotStatus.html#af4ebd61da7666619e0f6e656a25229c3',1,'RobotStatus']]],
-  ['goal_5fid_661',['goal_id',['../classrobot__reader_1_1dock_1_1DockDTO.html#a0de29eb7f47424c244cf62fc2e9c3aef',1,'robot_reader.dock.DockDTO.goal_id()'],['../classrobot__reader_1_1goal_1_1GoalDTO.html#ac8e250d888cca401aa89479e4e33545b',1,'robot_reader.goal.GoalDTO.goal_id()']]],
-  ['goal_5fpublisher_5f_662',['goal_publisher_',['../classrobot__writer_1_1writer_1_1GoalPublisher.html#aaf6fc9a0a42507f1471ba6e358147522',1,'robot_writer::writer::GoalPublisher']]],
-  ['goal_5fstatus_663',['goal_status',['../classrobot__reader_1_1dock_1_1DockDTO.html#ae81cd4a99651571e2db048507b63505c',1,'robot_reader.dock.DockDTO.goal_status()'],['../classrobot__reader_1_1goal_1_1GoalDTO.html#a02ef0f47f680dd572b026ceca8897b32',1,'robot_reader.goal.GoalDTO.goal_status()'],['../structRobotStatus.html#a1cf54995ff2075a2cfc4c20265679389',1,'RobotStatus::goal_status()']]],
-  ['goal_5fstatus_5fcode_664',['goal_status_code',['../namespacerobot__reader_1_1goal.html#a7e8755605e4ba0367d1cb0f926536d72',1,'robot_reader::goal']]],
-  ['goal_5fstep_665',['goal_step',['../structaction_1_1ActionData.html#aa2ab9eb42df3e3d37eb8245a407608c9',1,'action::ActionData']]],
-  ['goal_5ftopic_666',['GOAL_TOPIC',['../namespacerobot__reader_1_1config.html#a5a2c8c76d45cd14b862bc1d200671cf9',1,'robot_reader::config']]],
-  ['goalmutex_667',['GoalMutex',['../common__data_8cpp.html#a5735e219d04ede03d040d202f8204f0c',1,'GoalMutex():&#160;common_data.cpp'],['../common__data_8hpp.html#a5735e219d04ede03d040d202f8204f0c',1,'GoalMutex():&#160;common_data.cpp']]],
-  ['graph_5fdiameter_668',['graph_diameter',['../namespacefcpp_1_1coordination.html#a6d7f4db145061133e5c21a5dec7075d1',1,'fcpp::coordination']]]
+  ['facecolor_1082',['facecolor',['../namespacebattery__config.html#a86f132a76eedb819544e732d5b714f20',1,'battery_config']]],
+  ['failed_5fgoal_5fcolor_1083',['failed_goal_color',['../namespacefcpp_1_1coordination.html#a1d22853b2d23a5138627e7e81337bd2c',1,'fcpp::coordination']]],
+  ['feedbackwriter_1084',['feedbackWriter',['../classrobot__reader_1_1reader_1_1RobotInformationReader.html#ac03ae7d49c23a4a8d18fbb1956452be4',1,'robot_reader::reader::RobotInformationReader']]],
+  ['figsize_1085',['figsize',['../namespacebattery__config.html#a945c83fc0ba18a077cee72b9318b2aac',1,'battery_config']]],
+  ['frame_5fid_1086',['frame_id',['../structLaserScanSetting.html#a52a3a0a0cdf41af01428beec6f641553',1,'LaserScanSetting']]],
+  ['frame_5fid_5f_1087',['frame_id_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#ad3ca1ce7eb6d035374ed61a487020ef7',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['future_1088',['future',['../classnav__system_1_1poc__navigator_1_1PocNavigator.html#ae85b332fdd85749a2b4d79d0471d303d',1,'nav_system::poc_navigator::PocNavigator']]]
 ];

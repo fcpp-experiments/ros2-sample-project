@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['terminating_769',['TERMINATING',['../common__data_8hpp.html#ad382be1a0583b9c675deee416c52b4a8ad5eba31b62286a540bf61e144bc1be77',1,'common_data.hpp']]]
+  ['robot_1290',['ROBOT',['../common__data_8hpp.html#a6a276b85e2da28c5f9c3dbce61c55682a9c3a09b4e8dfc7b3eaa6ae184f94b815',1,'common_data.hpp']]]
 ];

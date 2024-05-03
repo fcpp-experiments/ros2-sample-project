@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['robot_5fphase_754',['robot_phase',['../common__data_8hpp.html#a4dcbe91684eeee29c0afe3419f5f1b78',1,'common_data.hpp']]]
+  ['processingstatus_1255',['ProcessingStatus',['../common__data_8hpp.html#ad382be1a0583b9c675deee416c52b4a8',1,'common_data.hpp']]]
 ];

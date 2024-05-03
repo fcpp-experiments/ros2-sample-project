@@ -1,4 +1,27 @@
 var searchData=
 [
-  ['main_5ft_428',['main_t',['../structfcpp_1_1coordination_1_1main__t.html',1,'fcpp::coordination']]]
+  ['navigator_714',['Navigator',['../classnav__system_1_1navigator_1_1Navigator.html',1,'nav_system::navigator']]],
+  ['node_5fbattery_5fcharge_715',['node_battery_charge',['../structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html',1,'fcpp::coordination::tags']]],
+  ['node_5fcolor_716',['node_color',['../structfcpp_1_1coordination_1_1tags_1_1node__color.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fdocking_5fstatus_717',['node_ext_docking_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__docking__status.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fgoal_718',['node_ext_goal',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fgoal_5fcurrent_5fstep_719',['node_ext_goal_current_step',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__current__step.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fgoal_5fstatus_720',['node_ext_goal_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__status.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fgoal_5fupdate_5finfo_721',['node_ext_goal_update_info',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__info.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fgoal_5fupdate_5ftime_722',['node_ext_goal_update_time',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__time.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fname_723',['node_ext_name',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__name.html',1,'fcpp::coordination::tags']]],
+  ['node_5fext_5fsystem_5fstatus_724',['node_ext_system_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__system__status.html',1,'fcpp::coordination::tags']]],
+  ['node_5flabel_5fcolor_725',['node_label_color',['../structfcpp_1_1coordination_1_1tags_1_1node__label__color.html',1,'fcpp::coordination::tags']]],
+  ['node_5flabel_5fsize_726',['node_label_size',['../structfcpp_1_1coordination_1_1tags_1_1node__label__size.html',1,'fcpp::coordination::tags']]],
+  ['node_5flabel_5ftext_727',['node_label_text',['../structfcpp_1_1coordination_1_1tags_1_1node__label__text.html',1,'fcpp::coordination::tags']]],
+  ['node_5foffset_5fpos_5fx_728',['node_offset_pos_x',['../structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__x.html',1,'fcpp::coordination::tags']]],
+  ['node_5foffset_5fpos_5fy_729',['node_offset_pos_y',['../structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__y.html',1,'fcpp::coordination::tags']]],
+  ['node_5fprocess_5fcomputing_5fgoals_730',['node_process_computing_goals',['../structfcpp_1_1coordination_1_1tags_1_1node__process__computing__goals.html',1,'fcpp::coordination::tags']]],
+  ['node_5fprocess_5fgoal_731',['node_process_goal',['../structfcpp_1_1coordination_1_1tags_1_1node__process__goal.html',1,'fcpp::coordination::tags']]],
+  ['node_5fprocess_5fstatus_732',['node_process_status',['../structfcpp_1_1coordination_1_1tags_1_1node__process__status.html',1,'fcpp::coordination::tags']]],
+  ['node_5fshadow_5fcolor_733',['node_shadow_color',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__color.html',1,'fcpp::coordination::tags']]],
+  ['node_5fshadow_5fshape_734',['node_shadow_shape',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__shape.html',1,'fcpp::coordination::tags']]],
+  ['node_5fshadow_5fsize_735',['node_shadow_size',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__size.html',1,'fcpp::coordination::tags']]],
+  ['node_5fshape_736',['node_shape',['../structfcpp_1_1coordination_1_1tags_1_1node__shape.html',1,'fcpp::coordination::tags']]],
+  ['node_5fsize_737',['node_size',['../structfcpp_1_1coordination_1_1tags_1_1node__size.html',1,'fcpp::coordination::tags']]]
 ];

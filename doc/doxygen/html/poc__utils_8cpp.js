@@ -5,6 +5,5 @@ var poc__utils_8cpp =
     [ "get_robot_name", "poc__utils_8cpp.html#a081be08e7bd7e555f1ac050fb49e3841", null ],
     [ "read_double_env", "poc__utils_8cpp.html#a9efcc01a21ccc51cdabbb9f8577d28f8", null ],
     [ "read_int_env", "poc__utils_8cpp.html#a25b608f18e7b9957b92ba4ae9ceed629", null ],
-    [ "read_string_env", "poc__utils_8cpp.html#a7ef7f3877603a89c0db4b51dfb75e2e1", null ],
-    [ "to_string", "poc__utils_8cpp.html#aea58a1105a53e2188eda9ee58b024335", null ]
+    [ "read_string_env", "poc__utils_8cpp.html#a7ef7f3877603a89c0db4b51dfb75e2e1", null ]
 ];

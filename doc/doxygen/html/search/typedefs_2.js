@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['i_740',['i',['../namespacefcpp_1_1option.html#a004bc451eaa615137dde6ffbaa9c3499',1,'fcpp::option']]]
+  ['goal_5ftuple_5ftype_1234',['goal_tuple_type',['../namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88',1,'fcpp::option::data']]]
 ];

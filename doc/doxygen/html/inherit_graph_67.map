@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,77,59,103"/>
+<area shape="rect" id="node2" href="$classnav__system_1_1navigator_1_1Navigator.html" title="Class used for issuing navigation goal using NAV2." alt="" coords="107,15,315,42"/>
+<area shape="rect" id="node4" href="$classrobot__reader_1_1reader_1_1RobotInformationReader.html" title="Class exteding ROS2 Node to receive sensor data from the robot and write it onto files to be used by ..." alt="" coords="124,69,297,111"/>
+<area shape="rect" id="node6" href="$classrobot__writer_1_1writer_1_1GoalPublisher.html" title="Class used for publishing navigation goal with coordinates compatible with the selected robot." alt="" coords="132,135,289,176"/>
+<area shape="rect" id="node3" href="$classnav__system_1_1poc__navigator_1_1PocNavigator.html" title="Class used for issuing navigation goal using NAV2." alt="" coords="372,5,552,47"/>
+<area shape="rect" id="node5" href="$classrobot__reader_1_1odom__reader_1_1OdomRobotInformationReader.html" title="Class extending RobotInformationReader to receive position data from the /odom topic." alt="" coords="363,71,561,112"/>
+</map>

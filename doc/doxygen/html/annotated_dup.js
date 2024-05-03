@@ -43,7 +43,6 @@ var annotated_dup =
           [ "node_battery_charge", "structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html", null ],
           [ "node_offset_pos_x", "structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__x.html", null ],
           [ "node_offset_pos_y", "structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__y.html", null ],
-          [ "node_is_working", "structfcpp_1_1coordination_1_1tags_1_1node__is__working.html", null ],
           [ "goal_action", "structfcpp_1_1coordination_1_1tags_1_1goal__action.html", null ],
           [ "goal_code", "structfcpp_1_1coordination_1_1tags_1_1goal__code.html", null ],
           [ "goal_pos_start_x", "structfcpp_1_1coordination_1_1tags_1_1goal__pos__start__x.html", null ],
@@ -60,6 +59,10 @@ var annotated_dup =
         [ "main_t", "structfcpp_1_1coordination_1_1main__t.html", null ]
       ] ]
     ] ],
+    [ "gazebo", "namespacegazebo.html", [
+      [ "GazeboRosBattery", "classgazebo_1_1GazeboRosBattery.html", "classgazebo_1_1GazeboRosBattery" ],
+      [ "GazeboRosBatteryPrivate", "classgazebo_1_1GazeboRosBatteryPrivate.html", "classgazebo_1_1GazeboRosBatteryPrivate" ]
+    ] ],
     [ "goal", "namespacegoal.html", [
       [ "manager", "namespacegoal_1_1manager.html", [
         [ "GoalManager", "classgoal_1_1manager_1_1GoalManager.html", null ]
@@ -68,6 +71,24 @@ var annotated_dup =
         [ "GoalParser", "classgoal_1_1parser_1_1GoalParser.html", null ]
       ] ],
       [ "GoalData", "structgoal_1_1GoalData.html", "structgoal_1_1GoalData" ]
+    ] ],
+    [ "ldlidar", "namespaceldlidar.html", [
+      [ "PointData", "structldlidar_1_1PointData.html", "structldlidar_1_1PointData" ],
+      [ "LaserScan", "structldlidar_1_1LaserScan.html", "structldlidar_1_1LaserScan" ],
+      [ "LDLidarDriver", "classldlidar_1_1LDLidarDriver.html", "classldlidar_1_1LDLidarDriver" ],
+      [ "LiPkg", "classldlidar_1_1LiPkg.html", "classldlidar_1_1LiPkg" ],
+      [ "Tofbf", "classldlidar_1_1Tofbf.html", "classldlidar_1_1Tofbf" ],
+      [ "UDPSocketInterfaceLinux", "classldlidar_1_1UDPSocketInterfaceLinux.html", "classldlidar_1_1UDPSocketInterfaceLinux" ],
+      [ "TCPSocketInterfaceLinux", "classldlidar_1_1TCPSocketInterfaceLinux.html", "classldlidar_1_1TCPSocketInterfaceLinux" ],
+      [ "SerialInterfaceLinux", "classldlidar_1_1SerialInterfaceLinux.html", "classldlidar_1_1SerialInterfaceLinux" ]
+    ] ],
+    [ "nav_system", null, [
+      [ "navigator", "namespacenav__system_1_1navigator.html", [
+        [ "Navigator", "classnav__system_1_1navigator_1_1Navigator.html", "classnav__system_1_1navigator_1_1Navigator" ]
+      ] ],
+      [ "poc_navigator", "namespacenav__system_1_1poc__navigator.html", [
+        [ "PocNavigator", "classnav__system_1_1poc__navigator_1_1PocNavigator.html", "classnav__system_1_1poc__navigator_1_1PocNavigator" ]
+      ] ]
     ] ],
     [ "robot_reader", null, [
       [ "battery", "namespacerobot__reader_1_1battery.html", [
@@ -103,9 +124,13 @@ var annotated_dup =
     [ "std", "namespacestd.html", [
       [ "hash< InputGoal >", "structstd_1_1hash_3_01InputGoal_01_4.html", "structstd_1_1hash_3_01InputGoal_01_4" ]
     ] ],
-    [ "ElectionAlgorithmMapper", "classElectionAlgorithmMapper.html", "classElectionAlgorithmMapper" ],
     [ "FileWatcher", "classFileWatcher.html", "classFileWatcher" ],
+    [ "ILogRealization", "classILogRealization.html", "classILogRealization" ],
     [ "InputGoal", "structInputGoal.html", "structInputGoal" ],
+    [ "LaserScanSetting", "structLaserScanSetting.html", "structLaserScanSetting" ],
+    [ "LogModule", "classLogModule.html", "classLogModule" ],
+    [ "LogPrint", "classLogPrint.html", "classLogPrint" ],
+    [ "LogVersion", "structLogVersion.html", "structLogVersion" ],
     [ "poc_file_watcher", "classpoc__file__watcher.html", "classpoc__file__watcher" ],
     [ "RobotStatus", "structRobotStatus.html", "structRobotStatus" ]
 ];

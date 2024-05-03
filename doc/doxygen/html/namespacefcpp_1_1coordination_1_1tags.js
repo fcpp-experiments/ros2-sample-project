@@ -31,7 +31,6 @@ var namespacefcpp_1_1coordination_1_1tags =
     [ "node_battery_charge", "structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html", null ],
     [ "node_offset_pos_x", "structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__x.html", null ],
     [ "node_offset_pos_y", "structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__y.html", null ],
-    [ "node_is_working", "structfcpp_1_1coordination_1_1tags_1_1node__is__working.html", null ],
     [ "goal_action", "structfcpp_1_1coordination_1_1tags_1_1goal__action.html", null ],
     [ "goal_code", "structfcpp_1_1coordination_1_1tags_1_1goal__code.html", null ],
     [ "goal_pos_start_x", "structfcpp_1_1coordination_1_1tags_1_1goal__pos__start__x.html", null ],

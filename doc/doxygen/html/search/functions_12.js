@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['update_5flast_5fgoal_5fupdate_5ftime_593',['update_last_goal_update_time',['../namespacefcpp_1_1coordination.html#a49198de989a9cac5f58d214730b87eff',1,'fcpp::coordination']]],
-  ['update_5fleader_5fcounter_594',['update_leader_counter',['../namespacefcpp_1_1coordination.html#aa7c31ea9f72a249fcaeb1487ca7cb000',1,'fcpp::coordination']]]
+  ['v_979',['V',['../namespacebattery__config.html#a24215ec9c9cde33b2565428d2557839c',1,'battery_config']]],
+  ['vc_980',['Vc',['../namespacebattery__config.html#a79d9f12cf671c6b6938cce3ee3662ffe',1,'battery_config']]]
 ];

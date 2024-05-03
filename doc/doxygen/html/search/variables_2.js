@@ -1,9 +1,23 @@
 var searchData=
 [
-  ['capacity_628',['capacity',['../classrobot__reader_1_1battery_1_1BatteryDTO.html#ac6a5aced4a8f35b1fba59cd34298e922',1,'robot_reader::battery::BatteryDTO']]],
-  ['comm_629',['comm',['../namespacefcpp_1_1coordination.html#a3db90b385ee931f78dcf1f400f35c12d',1,'fcpp::coordination']]],
-  ['computing_5fcolors_630',['computing_colors',['../namespacefcpp_1_1coordination.html#ac54110cd83800f599746a6a572b0022f',1,'fcpp::coordination']]],
-  ['content_631',['content',['../namespacerobot__reader_1_1store.html#add687bf8c7284af0192fc242b6d28f43',1,'robot_reader::store']]],
-  ['current_5fstep_632',['current_step',['../classrobot__reader_1_1goal_1_1GoalDTO.html#a6d29bc3ee670590c1a37bf6248d5ee34',1,'robot_reader::goal::GoalDTO']]],
-  ['custom_5fgraph_5fdiameter_633',['CUSTOM_GRAPH_DIAMETER',['../poc__config_8hpp.html#ad2f5081f2352125081f973374c54ee93',1,'poc_config.hpp']]]
+  ['capacity_1032',['capacity',['../classrobot__reader_1_1battery_1_1BatteryDTO.html#ac6a5aced4a8f35b1fba59cd34298e922',1,'robot_reader::battery::BatteryDTO']]],
+  ['capacity_5f_1033',['capacity_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a9b4e863d5f92907aebaf3be5aeaebc6c',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['capacity_5ftemp_5fcoeff_5f_1034',['capacity_temp_coeff_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a537fd83c48ae665b43e284fd22ded92a',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['cell_5fcount_5f_1035',['cell_count_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#ab4bef130b51943a09f032e0d89757bbb',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['characteristic_5ftime_5f_1036',['characteristic_time_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a54f64631f73ad96bc2e347d29e959602',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['charge_5f_1037',['charge_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#ae3d7d4235608d623b4dd616196848166',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['charge_5fmemory_5f_1038',['charge_memory_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a1b602372b9686c7fa6090bb71aeeec0f',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['comm_1039',['comm',['../namespacefcpp_1_1coordination.html#a3db90b385ee931f78dcf1f400f35c12d',1,'fcpp::coordination']]],
+  ['computing_5fcolors_1040',['computing_colors',['../namespacefcpp_1_1coordination.html#ac54110cd83800f599746a6a572b0022f',1,'fcpp::coordination']]],
+  ['constant_5fvoltage_5f_1041',['constant_voltage_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#af0266aaf66d24037a3a7e068a1cfea02',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['consumer_5ftopic_5f_1042',['consumer_topic_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a0fdc7004efd059be9f013bd6556e1b48',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['content_1043',['content',['../namespacerobot__reader_1_1store.html#add687bf8c7284af0192fc242b6d28f43',1,'robot_reader::store']]],
+  ['ctime_1044',['Ctime',['../namespacebattery__config.html#a8d069f2ed469a599d9e3b0f4d71526a7',1,'battery_config']]],
+  ['current_5f_1045',['current_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a0e901333c521f4d9f65096c370ecd1ce',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['current_5fdrawn_5f_1046',['current_drawn_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a8a5ae9b13d1009f0487719c4ef0985df',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['current_5fgoal_5fid_1047',['current_goal_id',['../classnav__system_1_1navigator_1_1Navigator.html#a00a167b8249b9a62d929a52e896e3e36',1,'nav_system::navigator::Navigator']]],
+  ['current_5flpf_5f_1048',['current_lpf_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a45a4fc00c26262e05e2443466809ccef',1,'gazebo::GazeboRosBatteryPrivate']]],
+  ['current_5fstep_1049',['current_step',['../classrobot__reader_1_1goal_1_1GoalDTO.html#a6d29bc3ee670590c1a37bf6248d5ee34',1,'robot_reader.goal.GoalDTO.current_step()'],['../classnav__system_1_1navigator_1_1Navigator.html#aef8ce183d7a44fdf868a2e9696aa95e5',1,'nav_system.navigator.Navigator.current_step()']]],
+  ['custom_5fgraph_5fdiameter_1050',['CUSTOM_GRAPH_DIAMETER',['../poc__config_8hpp.html#ad2f5081f2352125081f973374c54ee93',1,'poc_config.hpp']]],
+  ['cut_5foff_5fvoltage_5f_1051',['cut_off_voltage_',['../classgazebo_1_1GazeboRosBatteryPrivate.html#a8ec75bcd61981664b34dd6d123ffef17',1,'gazebo::GazeboRosBatteryPrivate']]]
 ];

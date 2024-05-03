@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['electionalgorithm_750',['ElectionAlgorithm',['../poc__utils_8hpp.html#a492436b98c3116eef5efd8819cd4f572',1,'poc_utils.hpp']]]
+  ['communicationmode_1247',['CommunicationMode',['../namespaceldlidar.html#a170d58b5f34b32c9ef29bc5271573a35',1,'ldlidar']]]
 ];

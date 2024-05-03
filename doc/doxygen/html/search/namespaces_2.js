@@ -1,6 +1,8 @@
 var searchData=
 [
-  ['goal_473',['goal',['../namespacegoal.html',1,'']]],
-  ['manager_474',['manager',['../namespacegoal_1_1manager.html',1,'goal']]],
-  ['parser_475',['parser',['../namespacegoal_1_1parser.html',1,'goal']]]
+  ['coordination_761',['coordination',['../namespacefcpp_1_1coordination.html',1,'fcpp']]],
+  ['data_762',['data',['../namespacefcpp_1_1option_1_1data.html',1,'fcpp::option']]],
+  ['fcpp_763',['fcpp',['../namespacefcpp.html',1,'']]],
+  ['option_764',['option',['../namespacefcpp_1_1option.html',1,'fcpp']]],
+  ['tags_765',['tags',['../namespacefcpp_1_1coordination_1_1tags.html',1,'fcpp::coordination']]]
 ];

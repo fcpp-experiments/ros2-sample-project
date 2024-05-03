@@ -6,12 +6,12 @@ var hierarchy =
     [ "robot_reader.battery.BatteryDTO", "classrobot__reader_1_1battery_1_1BatteryDTO.html", null ],
     [ "fcpp::coordination::tags::devices", "structfcpp_1_1coordination_1_1tags_1_1devices.html", null ],
     [ "robot_reader.dock.DockDTO", "classrobot__reader_1_1dock_1_1DockDTO.html", null ],
-    [ "ElectionAlgorithmMapper", "classElectionAlgorithmMapper.html", null ],
     [ "export_list", null, [
       [ "fcpp::coordination::main_t", "structfcpp_1_1coordination_1_1main__t.html", null ]
     ] ],
     [ "robot_reader.feedback_writer.FeedbackWriter", "classrobot__reader_1_1feedback__writer_1_1FeedbackWriter.html", null ],
     [ "FileWatcher", "classFileWatcher.html", null ],
+    [ "gazebo::GazeboRosBatteryPrivate", "classgazebo_1_1GazeboRosBatteryPrivate.html", null ],
     [ "fcpp::coordination::tags::goal_action", "structfcpp_1_1coordination_1_1tags_1_1goal__action.html", null ],
     [ "fcpp::coordination::tags::goal_code", "structfcpp_1_1coordination_1_1tags_1_1goal__code.html", null ],
     [ "fcpp::coordination::tags::goal_orient_end_w", "structfcpp_1_1coordination_1_1tags_1_1goal__orient__end__w.html", null ],
@@ -29,8 +29,21 @@ var hierarchy =
     [ "goal::manager::GoalManager", "classgoal_1_1manager_1_1GoalManager.html", null ],
     [ "goal::parser::GoalParser", "classgoal_1_1parser_1_1GoalParser.html", null ],
     [ "std::hash< InputGoal >", "structstd_1_1hash_3_01InputGoal_01_4.html", null ],
+    [ "ILogRealization", "classILogRealization.html", [
+      [ "LogPrint", "classLogPrint.html", null ]
+    ] ],
     [ "InputGoal", "structInputGoal.html", null ],
+    [ "ldlidar::LaserScan", "structldlidar_1_1LaserScan.html", null ],
+    [ "LaserScanSetting", "structLaserScanSetting.html", null ],
+    [ "ldlidar::LDLidarDriver", "classldlidar_1_1LDLidarDriver.html", null ],
     [ "fcpp::coordination::tags::left_color", "structfcpp_1_1coordination_1_1tags_1_1left__color.html", null ],
+    [ "ldlidar::LiPkg", "classldlidar_1_1LiPkg.html", null ],
+    [ "LogModule", "classLogModule.html", null ],
+    [ "LogModule::LOGMODULE_INFO", "structLogModule_1_1LOGMODULE__INFO.html", null ],
+    [ "LogVersion", "structLogVersion.html", null ],
+    [ "ModelPlugin", null, [
+      [ "gazebo::GazeboRosBattery", "classgazebo_1_1GazeboRosBattery.html", null ]
+    ] ],
     [ "fcpp::coordination::tags::node_battery_charge", "structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html", null ],
     [ "fcpp::coordination::tags::node_color", "structfcpp_1_1coordination_1_1tags_1_1node__color.html", null ],
     [ "fcpp::coordination::tags::node_ext_docking_status", "structfcpp_1_1coordination_1_1tags_1_1node__ext__docking__status.html", null ],
@@ -41,7 +54,6 @@ var hierarchy =
     [ "fcpp::coordination::tags::node_ext_goal_update_time", "structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__time.html", null ],
     [ "fcpp::coordination::tags::node_ext_name", "structfcpp_1_1coordination_1_1tags_1_1node__ext__name.html", null ],
     [ "fcpp::coordination::tags::node_ext_system_status", "structfcpp_1_1coordination_1_1tags_1_1node__ext__system__status.html", null ],
-    [ "fcpp::coordination::tags::node_is_working", "structfcpp_1_1coordination_1_1tags_1_1node__is__working.html", null ],
     [ "fcpp::coordination::tags::node_label_color", "structfcpp_1_1coordination_1_1tags_1_1node__label__color.html", null ],
     [ "fcpp::coordination::tags::node_label_size", "structfcpp_1_1coordination_1_1tags_1_1node__label__size.html", null ],
     [ "fcpp::coordination::tags::node_label_text", "structfcpp_1_1coordination_1_1tags_1_1node__label__text.html", null ],
@@ -56,16 +68,24 @@ var hierarchy =
     [ "fcpp::coordination::tags::node_shape", "structfcpp_1_1coordination_1_1tags_1_1node__shape.html", null ],
     [ "fcpp::coordination::tags::node_size", "structfcpp_1_1coordination_1_1tags_1_1node__size.html", null ],
     [ "poc_file_watcher", "classpoc__file__watcher.html", null ],
+    [ "ldlidar::PointData", "structldlidar_1_1PointData.html", null ],
     [ "robot_reader.position.PositionDTO", "classrobot__reader_1_1position_1_1PositionDTO.html", null ],
     [ "fcpp::coordination::tags::right_color", "structfcpp_1_1coordination_1_1tags_1_1right__color.html", null ],
     [ "RobotStatus", "structRobotStatus.html", null ],
+    [ "ldlidar::SerialInterfaceLinux", "classldlidar_1_1SerialInterfaceLinux.html", null ],
     [ "fcpp::coordination::tags::sidex", "structfcpp_1_1coordination_1_1tags_1_1sidex.html", null ],
     [ "fcpp::coordination::tags::sidey", "structfcpp_1_1coordination_1_1tags_1_1sidey.html", null ],
     [ "fcpp::coordination::tags::speed", "structfcpp_1_1coordination_1_1tags_1_1speed.html", null ],
     [ "robot_reader.store.Store", "classrobot__reader_1_1store_1_1Store.html", null ],
     [ "fcpp::coordination::tags::tavg", "structfcpp_1_1coordination_1_1tags_1_1tavg.html", null ],
+    [ "ldlidar::TCPSocketInterfaceLinux", "classldlidar_1_1TCPSocketInterfaceLinux.html", null ],
+    [ "ldlidar::Tofbf", "classldlidar_1_1Tofbf.html", null ],
     [ "fcpp::coordination::tags::tvar", "structfcpp_1_1coordination_1_1tags_1_1tvar.html", null ],
+    [ "ldlidar::UDPSocketInterfaceLinux", "classldlidar_1_1UDPSocketInterfaceLinux.html", null ],
     [ "Node", null, [
+      [ "nav_system.navigator.Navigator", "classnav__system_1_1navigator_1_1Navigator.html", [
+        [ "nav_system.poc_navigator.PocNavigator", "classnav__system_1_1poc__navigator_1_1PocNavigator.html", null ]
+      ] ],
       [ "robot_reader.reader.RobotInformationReader", "classrobot__reader_1_1reader_1_1RobotInformationReader.html", [
         [ "robot_reader.odom_reader.OdomRobotInformationReader", "classrobot__reader_1_1odom__reader_1_1OdomRobotInformationReader.html", null ]
       ] ],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['external_5fstatus_5ftuple_5ftype_738',['external_status_tuple_type',['../namespacefcpp_1_1option_1_1data.html#a379f411c7873cf45595d5f82778d4e2b',1,'fcpp::option::data']]]
+  ['communicationmodetypedef_1232',['CommunicationModeTypeDef',['../namespaceldlidar.html#ae1f37fd6abc1556144cfb10d6169bccf',1,'ldlidar']]]
 ];

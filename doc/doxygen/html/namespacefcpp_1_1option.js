@@ -3,7 +3,7 @@ var namespacefcpp_1_1option =
     [ "data", "namespacefcpp_1_1option_1_1data.html", [
       [ "external_status_tuple_type", "namespacefcpp_1_1option_1_1data.html#a379f411c7873cf45595d5f82778d4e2b", null ],
       [ "goal_tuple_type", "namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88", null ],
-      [ "rank_data_type", "namespacefcpp_1_1option_1_1data.html#adccc97e5627aea5bb55cf4c83c5602be", null ]
+      [ "rank_data_type", "namespacefcpp_1_1option_1_1data.html#a638b39cf950f62485db2becfd6cb424b", null ]
     ] ],
     [ "i", "namespacefcpp_1_1option.html#a004bc451eaa615137dde6ffbaa9c3499", null ],
     [ "n", "namespacefcpp_1_1option.html#ae9aa1916e805f7793d8c00b426f998a3", null ],

@@ -1,27 +1,4 @@
 var searchData=
 [
-  ['node_5fbattery_5fcharge_429',['node_battery_charge',['../structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html',1,'fcpp::coordination::tags']]],
-  ['node_5fcolor_430',['node_color',['../structfcpp_1_1coordination_1_1tags_1_1node__color.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fdocking_5fstatus_431',['node_ext_docking_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__docking__status.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fgoal_432',['node_ext_goal',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fgoal_5fcurrent_5fstep_433',['node_ext_goal_current_step',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__current__step.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fgoal_5fstatus_434',['node_ext_goal_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__status.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fgoal_5fupdate_5finfo_435',['node_ext_goal_update_info',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__info.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fgoal_5fupdate_5ftime_436',['node_ext_goal_update_time',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__time.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fname_437',['node_ext_name',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__name.html',1,'fcpp::coordination::tags']]],
-  ['node_5fext_5fsystem_5fstatus_438',['node_ext_system_status',['../structfcpp_1_1coordination_1_1tags_1_1node__ext__system__status.html',1,'fcpp::coordination::tags']]],
-  ['node_5fis_5fworking_439',['node_is_working',['../structfcpp_1_1coordination_1_1tags_1_1node__is__working.html',1,'fcpp::coordination::tags']]],
-  ['node_5flabel_5fcolor_440',['node_label_color',['../structfcpp_1_1coordination_1_1tags_1_1node__label__color.html',1,'fcpp::coordination::tags']]],
-  ['node_5flabel_5fsize_441',['node_label_size',['../structfcpp_1_1coordination_1_1tags_1_1node__label__size.html',1,'fcpp::coordination::tags']]],
-  ['node_5flabel_5ftext_442',['node_label_text',['../structfcpp_1_1coordination_1_1tags_1_1node__label__text.html',1,'fcpp::coordination::tags']]],
-  ['node_5foffset_5fpos_5fx_443',['node_offset_pos_x',['../structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__x.html',1,'fcpp::coordination::tags']]],
-  ['node_5foffset_5fpos_5fy_444',['node_offset_pos_y',['../structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__y.html',1,'fcpp::coordination::tags']]],
-  ['node_5fprocess_5fcomputing_5fgoals_445',['node_process_computing_goals',['../structfcpp_1_1coordination_1_1tags_1_1node__process__computing__goals.html',1,'fcpp::coordination::tags']]],
-  ['node_5fprocess_5fgoal_446',['node_process_goal',['../structfcpp_1_1coordination_1_1tags_1_1node__process__goal.html',1,'fcpp::coordination::tags']]],
-  ['node_5fprocess_5fstatus_447',['node_process_status',['../structfcpp_1_1coordination_1_1tags_1_1node__process__status.html',1,'fcpp::coordination::tags']]],
-  ['node_5fshadow_5fcolor_448',['node_shadow_color',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__color.html',1,'fcpp::coordination::tags']]],
-  ['node_5fshadow_5fshape_449',['node_shadow_shape',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__shape.html',1,'fcpp::coordination::tags']]],
-  ['node_5fshadow_5fsize_450',['node_shadow_size',['../structfcpp_1_1coordination_1_1tags_1_1node__shadow__size.html',1,'fcpp::coordination::tags']]],
-  ['node_5fshape_451',['node_shape',['../structfcpp_1_1coordination_1_1tags_1_1node__shape.html',1,'fcpp::coordination::tags']]],
-  ['node_5fsize_452',['node_size',['../structfcpp_1_1coordination_1_1tags_1_1node__size.html',1,'fcpp::coordination::tags']]]
+  ['odomrobotinformationreader_738',['OdomRobotInformationReader',['../classrobot__reader_1_1odom__reader_1_1OdomRobotInformationReader.html',1,'robot_reader::odom_reader']]]
 ];

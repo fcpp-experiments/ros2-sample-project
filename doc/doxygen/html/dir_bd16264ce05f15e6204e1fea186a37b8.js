@@ -19,5 +19,6 @@ var dir_bd16264ce05f15e6204e1fea186a37b8 =
       [ "poc_file_watcher", "classpoc__file__watcher.html", "classpoc__file__watcher" ]
     ] ],
     [ "poc_utils.cpp", "poc__utils_8cpp.html", "poc__utils_8cpp" ],
-    [ "poc_utils.hpp", "poc__utils_8hpp.html", "poc__utils_8hpp" ]
+    [ "poc_utils.hpp", "poc__utils_8hpp.html", "poc__utils_8hpp" ],
+    [ "process.hpp", "process_8hpp.html", "process_8hpp" ]
 ];
