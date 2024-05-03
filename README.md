@@ -33,8 +33,9 @@ apt install python3-colcon-common-extensions python3-vcstool python3-rosdep ros-
 # Cyclone DDS
 apt install ros-humble-cyclonedds ros-humble-rmw-cyclonedds-cpp
 ```
+# Install
 
-You should now run install script to build all ROS2 components:
+You should now run install script to build all components:
 ```bash
 cd PoC
 ./install.sh
