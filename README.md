@@ -34,6 +34,14 @@ apt install python3-colcon-common-extensions python3-vcstool python3-rosdep ros-
 apt install ros-humble-cyclonedds ros-humble-rmw-cyclonedds-cpp
 ```
 
+Add in your .profile or .bashrc:
+```bash
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+# ATTENTION: change path according with your OS.
+# Substitute $BASE_PATH with the base path of your repository
+export CYCLONEDDS_URI=$BASE_PATH/config/cyclone-dds-interface-select-laptop.xml
+```
+
 #### FCPP
 [Follow instructions on fcpp repository](https://github.com/fcpp/fcpp)
 
