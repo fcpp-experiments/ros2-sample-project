@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ $# -eq 0 ]; then
-    echo "Usage: $0 \"<goal_info>\" (ex: GOAL_123456789)"
+    echo "Usage: $0 \"<goal_info>\" (ex: GOAL-123456789)"
     exit 1
 fi
 
