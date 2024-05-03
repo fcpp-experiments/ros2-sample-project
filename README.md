@@ -35,7 +35,7 @@ apt install ros-humble-cyclonedds ros-humble-rmw-cyclonedds-cpp
 ```
 
 #### FCPP
-Follow instructions on fcpp repository: [FCPP](https://github.com/fcpp/fcpp)
+[Follow instructions on fcpp repository](https://github.com/fcpp/fcpp)
 
 # Install
 
