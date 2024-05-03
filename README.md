@@ -91,7 +91,7 @@ example:
 ```
 
 ### Abort
-To abort a current with *ID=`$GOAL_CODE`*, you can run:
+To abort a current goal with *ID=`$GOAL_CODE`*, you can run:
 ```bash
 cd Storage
 ./create_abort.sh $GOAL_CODE
