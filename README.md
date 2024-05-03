@@ -33,6 +33,10 @@ apt install python3-colcon-common-extensions python3-vcstool python3-rosdep ros-
 # Cyclone DDS
 apt install ros-humble-cyclonedds ros-humble-rmw-cyclonedds-cpp
 ```
+
+#### FCPP
+Follow instructions on fcpp repository: [FCPP](https://github.com/fcpp/fcpp)
+
 # Install
 
 You should now run install script to build all components:
