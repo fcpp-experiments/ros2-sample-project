@@ -37,9 +37,11 @@ apt install ros-humble-cyclonedds ros-humble-rmw-cyclonedds-cpp
 
 You should now run install script to build all components:
 ```bash
+# Remember: you have to insert the password of your sudoers user only the first time you used the script.
 cd PoC
 ./install.sh
 ```
+Remember: you have to insert the password of your sudoers user only the first time you used the script.
 
 The script will list the components that need to be compiled to run,
 enter the folders and follow compilation instructions.
