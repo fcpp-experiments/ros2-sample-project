@@ -68,6 +68,9 @@ const std::string BG_IMAGE                  = read_string_env(AP_BG_IMAGE, DEFAU
     #endif
     const std::vector<std::string> ROBOTS   = generate_robot_names(ROBOT_PREFIX, 1, ROBOTS_COUNT);
 #endif
+#ifndef AP_ENGINE_DEBUG
+    #define AP_ENGINE_DEBUG                 false
+#endif
 #ifndef AP_COMM_RANGE
     #define AP_COMM_RANGE                   AP_DEF_COMM_RANGE
 #endif 
