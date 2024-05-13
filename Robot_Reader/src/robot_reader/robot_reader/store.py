@@ -14,8 +14,7 @@ class Store:
     """
     def __init__(self):
         self._dictionary = dict()
-        for r in config.ROBOTS:
-            robot_name = r["name"]
+        for robot_name in config.ROBOTS:
             self._dictionary[robot_name] = dict()
             self._dictionary[robot_name]["position"]    = PositionDTO(robot_name)
             self._dictionary[robot_name]["battery"]     = BatteryDTO(robot_name)

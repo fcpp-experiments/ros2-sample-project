@@ -17,32 +17,4 @@ POLL_WRITER_SECONDS     = 0.5
 
 ROBOTS_PREFIX           = "tb3_"
 ROBOTS_LENGTH           = 10
-ROBOTS = [dict( name=ROBOTS_PREFIX+str(i), base=dict(x=0,y=0,w=0) ) for i in range(1, ROBOTS_LENGTH+1)]
-
-# EXAMPLE:
-# [
-#     {
-#         "name": "tb3_1",
-#         "base": {
-#             "x": 0,
-#             "y": 0,
-#             "w": 0
-#         }
-#     },
-#     {
-#         "name": "tb3_2",
-#         "base": {
-#             "x": 0,
-#             "y": 0,
-#             "w": 0
-#         }
-#     },
-#     {
-#         "name": "tb3_3",
-#         "base": {
-#             "x": 0,
-#             "y": 0,
-#             "w": 0
-#         }
-#     }
-# ]
+ROBOTS = [ROBOTS_PREFIX+str(i) for i in range(1, ROBOTS_LENGTH+1)]
