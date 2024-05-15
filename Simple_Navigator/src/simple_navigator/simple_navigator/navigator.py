@@ -8,8 +8,15 @@ import statistics as stat
 
 
 class SimpleNavigator(Node):
+    """!
+    ROS 2 node that navigates based on boolean flag
+    enabled by the LiDAR readings
+    """
 
     def __init__(self):
+        """!
+        Initialize the navigator node and subscribe to 'scan' topic.
+        """
         super().__init__('simple_navigator')
         self.scan_sub = self.create_subscription(LaserScan, 'scan',
                  self.scan_callback, 10)
@@ -23,6 +30,10 @@ class SimpleNavigator(Node):
         self.up_right    = False
 
     def scan_callback(self, msg):
+        """!
+        Set the corresponding flag to True whenever specified
+        conditions are met.
+        """
         self.up_left     = stat.mean(msg.ranges[0:5]) > 0.5
         self.left        = stat.mean(msg.ranges[5:11]) >  0.75
         self.warn_left   = min(msg.ranges[3:13]) <  0.2
