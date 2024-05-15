@@ -1,0 +1,10 @@
+---
+- r1:
+  name: 'tb3_1'
+  x_pose: 0.5
+  y_pose: 7.5
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
