@@ -121,6 +121,11 @@ var annotated_dup =
         [ "GoalPublisher", "classrobot__writer_1_1writer_1_1GoalPublisher.html", "classrobot__writer_1_1writer_1_1GoalPublisher" ]
       ] ]
     ] ],
+    [ "simple_navigator", null, [
+      [ "navigator", "namespacesimple__navigator_1_1navigator.html", [
+        [ "SimpleNavigator", "classsimple__navigator_1_1navigator_1_1SimpleNavigator.html", "classsimple__navigator_1_1navigator_1_1SimpleNavigator" ]
+      ] ]
+    ] ],
     [ "std", "namespacestd.html", [
       [ "hash< InputGoal >", "structstd_1_1hash_3_01InputGoal_01_4.html", "structstd_1_1hash_3_01InputGoal_01_4" ]
     ] ],

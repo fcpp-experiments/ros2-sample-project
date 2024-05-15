@@ -3,6 +3,7 @@ var poc__config_8hpp =
     [ "AP_COMM_RANGE", "poc__config_8hpp.html#a267c1a739c9ffb37b9ddcdded321bc54", null ],
     [ "AP_DEF_COMM_RANGE", "poc__config_8hpp.html#a1c531d1429cbe38446ec54dea54f1ed2", null ],
     [ "AP_DEF_RETAIN_SEC", "poc__config_8hpp.html#a164a97c1a12c4d5fd5c392423b15f5a3", null ],
+    [ "AP_ENGINE_DEBUG", "poc__config_8hpp.html#aeb46c2ad0e47d4686bed16fc8e8f4734", null ],
     [ "AP_RETAIN_SEC", "poc__config_8hpp.html#a81ab3f7d1dab0433bafc944743a1978d", null ],
     [ "COLUMN_DELIMITER", "poc__config_8hpp.html#a56fa4b905000f5bb43f63e26ead6019d", null ],
     [ "INPUT_FOLDER_BASE_PATH", "poc__config_8hpp.html#a47706c5310bc62f01fb31ebe921cee44", null ],

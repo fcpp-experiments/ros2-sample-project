@@ -43,7 +43,6 @@ var namespaces_dup =
         [ "GOAL_TOPIC", "namespacerobot__reader_1_1config.html#a5a2c8c76d45cd14b862bc1d200671cf9", null ],
         [ "ODOM_TOPIC", "namespacerobot__reader_1_1config.html#ac8fa2ea6108a65822c6beb93acc3f005", null ],
         [ "POLL_WRITER_SECONDS", "namespacerobot__reader_1_1config.html#a103e690071ee19b1474196c408690c6f", null ],
-        [ "ROBOTS", "namespacerobot__reader_1_1config.html#a566a57092493ae743eb60a27e7b9b629", null ],
         [ "ROBOTS_LENGTH", "namespacerobot__reader_1_1config.html#a504d4a999eade3e12082d6cd5c0e4754", null ],
         [ "ROBOTS_PREFIX", "namespacerobot__reader_1_1config.html#a5e88a47e2561010cbd58fe1d913ecdec", null ]
       ] ],
@@ -64,6 +63,9 @@ var namespaces_dup =
         [ "abs2rel", "namespacerobot__writer_1_1coords.html#af3a0689a64d1575fe80d6aa8cd890560", null ]
       ] ],
       [ "writer", "namespacerobot__writer_1_1writer.html", "namespacerobot__writer_1_1writer" ]
+    ] ],
+    [ "simple_navigator", null, [
+      [ "navigator", "namespacesimple__navigator_1_1navigator.html", "namespacesimple__navigator_1_1navigator" ]
     ] ],
     [ "std", "namespacestd.html", "namespacestd" ]
 ];

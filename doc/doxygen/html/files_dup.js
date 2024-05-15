@@ -4,5 +4,6 @@ var files_dup =
     [ "Navigation_System", "dir_884da328eddc2f2acba2e56ed72f42e9.html", "dir_884da328eddc2f2acba2e56ed72f42e9" ],
     [ "PoC", "dir_aa99c6122416a9d367d2ec590bf936b8.html", "dir_aa99c6122416a9d367d2ec590bf936b8" ],
     [ "Robot_Reader", "dir_e9d5318975a9ccfbda6b37d4574576bd.html", "dir_e9d5318975a9ccfbda6b37d4574576bd" ],
-    [ "Robot_Writer", "dir_d20f4ccebeee062647068714c9449d3d.html", "dir_d20f4ccebeee062647068714c9449d3d" ]
+    [ "Robot_Writer", "dir_d20f4ccebeee062647068714c9449d3d.html", "dir_d20f4ccebeee062647068714c9449d3d" ],
+    [ "Simple_Navigator", "dir_c0199237e4b4b8790d52770e92fe9be9.html", "dir_c0199237e4b4b8790d52770e92fe9be9" ]
 ];

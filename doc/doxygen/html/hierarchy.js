@@ -89,6 +89,7 @@ var hierarchy =
       [ "robot_reader.reader.RobotInformationReader", "classrobot__reader_1_1reader_1_1RobotInformationReader.html", [
         [ "robot_reader.odom_reader.OdomRobotInformationReader", "classrobot__reader_1_1odom__reader_1_1OdomRobotInformationReader.html", null ]
       ] ],
-      [ "robot_writer.writer.GoalPublisher", "classrobot__writer_1_1writer_1_1GoalPublisher.html", null ]
+      [ "robot_writer.writer.GoalPublisher", "classrobot__writer_1_1writer_1_1GoalPublisher.html", null ],
+      [ "simple_navigator.navigator.SimpleNavigator", "classsimple__navigator_1_1navigator_1_1SimpleNavigator.html", null ]
     ] ]
 ];

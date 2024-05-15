@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "NODES", "index.html", [
+  [ "PROGMOB", "index.html", [
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -63,11 +63,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
+"CMakeCCompilerId_8c.html",
 "classgoal_1_1parser_1_1GoalParser.html",
-"feedback__writer_8py.html#aab6a8fb6fcdee05e851d9930a67c5f18",
-"namespaceldlidar.html#ab76d3a30bfb2cea1715af1066e6ade29aa561d434eca3762c4cfbaee9b7dfc26c",
-"structfcpp_1_1coordination_1_1tags_1_1node__label__size.html"
+"dir_dc9e76b8d767069bc018f3ef1de9bc9d.html",
+"namespaceldlidar.html#a170d58b5f34b32c9ef29bc5271573a35a5218a9f4504e0999b98f97f482c23158",
+"structfcpp_1_1coordination_1_1tags_1_1goal__priority.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

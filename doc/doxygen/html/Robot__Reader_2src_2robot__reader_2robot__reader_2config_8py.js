@@ -7,7 +7,6 @@ var Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py =
     [ "GOAL_TOPIC", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#a5a2c8c76d45cd14b862bc1d200671cf9", null ],
     [ "ODOM_TOPIC", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#ac8fa2ea6108a65822c6beb93acc3f005", null ],
     [ "POLL_WRITER_SECONDS", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#a103e690071ee19b1474196c408690c6f", null ],
-    [ "ROBOTS", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#a566a57092493ae743eb60a27e7b9b629", null ],
     [ "ROBOTS_LENGTH", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#a504d4a999eade3e12082d6cd5c0e4754", null ],
     [ "ROBOTS_PREFIX", "Robot__Reader_2src_2robot__reader_2robot__reader_2config_8py.html#a5e88a47e2561010cbd58fe1d913ecdec", null ]
 ];

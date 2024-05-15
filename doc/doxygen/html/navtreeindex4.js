@@ -1,5 +1,21 @@
 var NAVTREEINDEX4 =
 {
+"structfcpp_1_1coordination_1_1tags_1_1goal__priority.html":[1,0,1,0,0,40],
+"structfcpp_1_1coordination_1_1tags_1_1goal__source.html":[1,0,1,0,0,39],
+"structfcpp_1_1coordination_1_1tags_1_1goal__step.html":[1,0,1,0,0,42],
+"structfcpp_1_1coordination_1_1tags_1_1goal__subcode.html":[1,0,1,0,0,41],
+"structfcpp_1_1coordination_1_1tags_1_1left__color.html":[1,0,1,0,0,7],
+"structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html":[1,0,1,0,0,28],
+"structfcpp_1_1coordination_1_1tags_1_1node__color.html":[1,0,1,0,0,6],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__docking__status.html":[1,0,1,0,0,19],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal.html":[1,0,1,0,0,23],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__current__step.html":[1,0,1,0,0,18],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__status.html":[1,0,1,0,0,17],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__info.html":[1,0,1,0,0,21],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__time.html":[1,0,1,0,0,22],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__name.html":[1,0,1,0,0,24],
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__system__status.html":[1,0,1,0,0,20],
+"structfcpp_1_1coordination_1_1tags_1_1node__label__color.html":[1,0,1,0,0,13],
 "structfcpp_1_1coordination_1_1tags_1_1node__label__size.html":[1,0,1,0,0,11],
 "structfcpp_1_1coordination_1_1tags_1_1node__label__text.html":[1,0,1,0,0,12],
 "structfcpp_1_1coordination_1_1tags_1_1node__offset__pos__x.html":[1,0,1,0,0,29],
@@ -43,8 +59,8 @@ var NAVTREEINDEX4 =
 "structldlidar_1_1PointData.html#abc64c8ba5eec228a351fae618135caff":[1,0,4,0,4],
 "structldlidar_1_1PointData.html#ad848bb1cb16bba43c3169e30c955d5ca":[1,0,4,0,2],
 "structldlidar_1_1PointData.html#ae46bbc94f227f11f13df642c0fec79f5":[1,0,4,0,3],
-"structstd_1_1hash_3_01InputGoal_01_4.html":[1,0,8,0],
-"structstd_1_1hash_3_01InputGoal_01_4.html#a8c9faf1f231948e2c80e017b7f8c841a":[1,0,8,0,0],
+"structstd_1_1hash_3_01InputGoal_01_4.html":[1,0,9,0],
+"structstd_1_1hash_3_01InputGoal_01_4.html#a8c9faf1f231948e2c80e017b7f8c841a":[1,0,9,0,0],
 "tofbf_8cpp.html":[2,0,1,0,0,1,1,2,0],
 "tofbf_8h.html":[2,0,1,0,0,1,0,2,0],
 "tofbf_8h.html#a497660da92b3f240a4e8df699d48191a":[2,0,1,0,0,1,0,2,0,1],
@@ -58,5 +74,9 @@ var NAVTREEINDEX4 =
 "writer_8py.html#a704e7f04eab2b43da1a3fb7b16ec8fa2":[2,0,4,0,0,0,2,4],
 "writer_8py.html#a8ada81dcdbb630cff36c4a5d306e9a85":[2,0,4,0,0,0,2,6],
 "writer_8py.html#ab013b2a5be44379ea01520fe6b50089a":[2,0,4,0,0,0,2,3],
-"writer_8py.html#ac64363241a075c6dc5403339c43c60dd":[2,0,4,0,0,0,2,1]
+"writer_8py.html#ac64363241a075c6dc5403339c43c60dd":[2,0,4,0,0,0,2,1],
+"":[0,0,9],
+"":[0,0,10],
+"":[0,0,8],
+"":[0,0,7]
 };
