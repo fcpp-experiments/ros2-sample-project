@@ -47,45 +47,12 @@ namespace fcpp
 
         //! @brief Blink color of node
         FUN void blink_computing_color(ARGS) { CODE
-            // TODO: implement me
+            // TODO: implement here exercise 1
         }
 
         //! @brief Get robot name from AP node_uid
         FUN string get_real_robot_name(ARGS, device_t node_uid) { CODE
             return get_robot_name(ROBOTS, static_cast<int>(node_uid));
-        }
-
-        //! @brief Update in the storage the tag "node_ext_goal_update_info"
-        FUN void update_last_goal_update_time(ARGS, std::string goal_code, feedback::GoalStatus goal_status) { CODE
-            std::time_t now = std::time(nullptr);
-            std::asctime(std::localtime(&now));
-            fcpp::option::data::external_status_tuple_type ext_status_tuple = common::make_tagged_tuple<node_ext_goal_update_time, node_ext_goal_status>(
-                    now,
-                    goal_status
-                );
-            node.storage(node_ext_goal_update_info{})[goal_code] = ext_status_tuple;
-            node.storage(node_ext_goal_update_info{})[string(ANY_GOALS)] = ext_status_tuple;
-        }
-
-        //! @brief Add current goal to computing map
-        FUN void add_goal_to_computing_map(ARGS, goal_tuple_type const& g) { CODE
-            node.storage(node_process_computing_goals{})[common::get<goal_code>(g)] = g;
-        }
-
-        //! @brief Remove current goal to computing map
-        FUN void remove_goal_from_computing_map(ARGS, std::string goal_code) { CODE
-            node.storage(node_process_computing_goals{}).erase(goal_code);
-        }
-
-        //! @brief Check if exists other prioritised goals that are different from current
-        FUN bool check_if_other_prioritised_goal_exists(ARGS, std::string current_goal_code) { CODE
-            auto map = node.storage(node_process_computing_goals{});
-            auto found = std::find_if(map.begin(), map.end(), [&](const auto& p){
-                return 
-                    common::get<goal_code>(p.second) != current_goal_code &&
-                    common::get<goal_priority>(p.second) > 0;
-            });
-            return found != map.end();
         }
 
         //! @brief Compute new rank for node, using battery and distance from goal
@@ -101,15 +68,11 @@ namespace fcpp
             auto is_goal_running =  [&]()->bool {return node.storage(node_ext_goal_status{}) == feedback::GoalStatus::RUNNING;};
             auto is_docking =   [&]()->bool {return node.storage(node_ext_docking_status{}) == feedback::DockStatus::RUNNING;};
             auto is_process_selected = [&]()->bool {return node.storage(node_process_status{}) == ProcessingStatus::SELECTED;};
-            auto is_goal_priority_0 = [&]()->bool {return common::get<goal_priority>(g) == 0;};
-            auto exists_prioritised_goal = [&]()->bool {return check_if_other_prioritised_goal_exists(CALL, common::get<goal_code>(g));};
             if (
                     // node is failed for current goal and not already selected for something
                     (is_goal_failed() && is_current_goal() && !is_process_selected()) ||
                     // or it's already selected or running for another goal
                     ((is_goal_running() || is_process_selected()) && !is_current_goal()) ||
-                    // or if it's processing not prioritised goal, but there are other some prioritised goals
-                    (is_goal_priority_0() && exists_prioritised_goal()) ||
                     // or it's returning to its initial position
                     is_docking()
                 ) {
@@ -187,8 +150,6 @@ namespace fcpp
                 new_color = fcpp::color(fcpp::coordination::reached_goal_color);
                 // set to terminating processing status
                 node.storage(node_process_status{}) = ProcessingStatus::TERMINATING;
-                // update time 
-                update_last_goal_update_time(CALL, node.storage(node_process_goal{}), feedback::GoalStatus::REACHED);
 
             // and if process node is SELECTED, then AP has selected new node and simulation is ready to start    
             } else if (node.storage(node_process_status{}) == ProcessingStatus::SELECTED) {
@@ -209,8 +170,6 @@ namespace fcpp
                 new_color = fcpp::color(fcpp::coordination::illegal_color);
                 // set to terminating processing status
                 node.storage(node_process_status{}) = ProcessingStatus::TERMINATING;
-                // update time
-                update_last_goal_update_time(CALL, node.storage(node_process_goal{}), feedback::GoalStatus::ILLEGAL);
                 std::cout << "Terminating illegal goal with code " << rs.goal_code << std::endl;
             // otherwise: new color is "illegal"
             } else {
@@ -228,10 +187,6 @@ namespace fcpp
             } else {
                 new_color = fcpp::color(fcpp::coordination::idle_color);
             }
-            if (feedback::GoalStatus::UNKNOWN != node.storage(node_ext_goal_status{})) {
-                // update time 
-                update_last_goal_update_time(CALL, node.storage(node_process_goal{}), feedback::GoalStatus::UNKNOWN);
-            }
             change_color(CALL, new_color);
         }
 
@@ -245,10 +200,6 @@ namespace fcpp
             else {         
                 new_color = fcpp::color(fcpp::coordination::aborted_goal_color);
             }
-            if (feedback::GoalStatus::ABORTED != node.storage(node_ext_goal_status{})) {
-                // update time 
-                update_last_goal_update_time(CALL, node.storage(node_process_goal{}), feedback::GoalStatus::ABORTED);
-            }
             change_color(CALL, new_color);
         }
 
@@ -260,8 +211,6 @@ namespace fcpp
                 new_color = fcpp::color(fcpp::coordination::failed_goal_color);
                 // resetting processing status
                 node.storage(node_process_status{}) = ProcessingStatus::IDLE;
-                // update time  
-                update_last_goal_update_time(CALL, node.storage(node_process_goal{}), feedback::GoalStatus::FAILED);
 
             // or previous state is FAILED (it's NOT the first time of FAILED status)
             } else {
@@ -383,7 +332,6 @@ namespace fcpp
         //! @brief Manage when the user has requested a new GOAL
         FUN void manage_action_goal(ARGS, node_type nt, goal_tuple_type const& g, status* s) { CODE
             
-            add_goal_to_computing_map(CALL, g);
             // make_tuple(real_t, device_t, int, make_tuple(device_t, int)):
             // [0] -> rank of current leader
             // [1] -> node uid of current leader
@@ -420,16 +368,16 @@ namespace fcpp
                 real_t computed_rank = INF;
                 computed_rank = run_rank_node(CALL, percent_charge, nt, g);   
 
-
-                if (nt == node_type::ROBOT && //i'm robot
+                bool check_to_start =
+                    nt == node_type::ROBOT && //i'm robot
                     current_rank != INF && //i have computed something
                     computed_rank != INF && //and also now i have computed something
                     node.storage(node_process_status{}) == ProcessingStatus::IDLE && //i'm IDLE, so ready to go!
                     percent_charge > 0.0 && //i have sufficient battery
                     node.uid == current_leader && //i'm the best!
-                    current_leader_for_round >= 2) // for at least 2 round
-                    { 
-
+                    current_leader_for_round >= 2  // for at least 2 round
+                ;
+                if (check_to_start) {
                     send_action_to_selected_node(CALL, current_leader, g);
                 }
 
@@ -440,6 +388,8 @@ namespace fcpp
                 }
 
                 // TODO: implement here exercise 2
+
+                // TODO: implement here exercise 3
 
                 // i'm the leader!                
                 return make_tuple(
@@ -652,21 +602,6 @@ namespace fcpp
                     std::cout << "Process with code " << node.storage(node_process_goal{}) << " not found, so move robot to IDLE" << endl;
                     node.storage(node_process_status{}) = ProcessingStatus::IDLE;
                 }
-            }
-
-            // search on results if the computing processes has been terminated: 
-            //  - if it's terminated (or in other words, if the goal it's not in the "r" variable), we delete it from the map in the storage
-            std::vector<std::string> goals_to_remove = {};
-            for (auto const& x : node.storage(node_process_computing_goals{}))
-            {
-                auto g = x.second;
-                if (r.find(g) == r.end()){
-                    // std::cout << "Remove process with code " << common::get<goal_code>(g) << endl;
-                    goals_to_remove.push_back(common::get<goal_code>(g));
-                } 
-            }
-            for (auto const& gc : goals_to_remove) {
-                remove_goal_from_computing_map(CALL, gc);
             }
         }
 
