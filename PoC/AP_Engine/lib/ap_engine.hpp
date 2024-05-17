@@ -439,6 +439,8 @@ namespace fcpp
                     blink_computing_color(CALL);
                 }
 
+                // TODO: implement here exercise 2
+
                 // i'm the leader!                
                 return make_tuple(
                     0.0,
