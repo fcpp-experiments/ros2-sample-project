@@ -18,7 +18,7 @@ AP_ROUND_PERIOD=0.5 AP_WEARABLE_COUNT=0 AP_ROBOT_COUNT=5 AP_SIMULATOR_OFFSET_X=0
 You can use enable or disable automatic dock after reaching goal. `$DOCK` can be 1 (disable), 2 (enable).
 
 ```bash
-./PoC/rumbo_run.sh dock_enable:=$DOCK
+./PoC/rumbo_library_run.sh dock_enable:=$DOCK
 ```
 
 ## Out of order robot
