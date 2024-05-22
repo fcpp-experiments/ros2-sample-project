@@ -36,6 +36,7 @@ class RobotInformationReader(Node):
         """
         super().__init__('robot_information_reader', namespace=namespace)
         self.robot_name = robot_name
+        self.content = store.Store(robot_name)
         self.origin_x = float(origin_x)
         self.origin_y = float(origin_y)
         self.rotation = float(rotation)
@@ -84,7 +85,7 @@ class RobotInformationReader(Node):
                 msg.pose.pose.orientation.z, msg.pose.pose.orientation.w,
                 self.origin_x, self.origin_y, self.rotation)
         position            = PositionDTO(self.robot_name, x, y, angle)
-        store.content._dictionary[self.robot_name]["position"]     = position
+        self.content._dictionary["position"]     = position
         self.get_logger().debug('I heard position from %s: "%s"' % (self.robot_name, str(position)))
 
     def listener_battery_callback(self, msg: BatteryState):
@@ -99,7 +100,7 @@ class RobotInformationReader(Node):
                 msg.temperature,
                 msg.capacity,
                 msg.power_supply_status)
-        store.content._dictionary[self.robot_name]["battery"] = battery
+        self.content._dictionary["battery"] = battery
         self.get_logger().debug('I heard battery from %s: "%s"' % (self.robot_name, str(battery)))
 
     def listener_goal_callback(self, msg: GoalDTO):
@@ -115,7 +116,7 @@ class RobotInformationReader(Node):
         elif msg.type == "dock":
             dto = DockDTO(self.robot_name, msg.id, msg.state)
             target = "dock"
-        store.content._dictionary[self.robot_name][target] = dto
+        self.content._dictionary[target] = dto
         self.get_logger().debug('I heard goal from %s: "%s"' % (self.robot_name, str(dto)))
         self.write_file()
 
@@ -124,15 +125,15 @@ class RobotInformationReader(Node):
         Writes the values stored in the content dictionary, to a feedback file.
         Called every config.POLL_WRITER_SECONDS seconds.
         """
-        if (store.content._dictionary[self.robot_name]["position"].pos_x != None or
-            store.content._dictionary[self.robot_name]["battery"].percentage_charge != None or
-            store.content._dictionary[self.robot_name]["dock"].goal_status != -1 or
-            store.content._dictionary[self.robot_name]["goal"].goal_status != -1):
+        if (self.content._dictionary["position"].pos_x != None or
+            self.content._dictionary["battery"].percentage_charge != None or
+            self.content._dictionary["dock"].goal_status != -1 or
+            self.content._dictionary["goal"].goal_status != -1):
             filename = self.feedbackWriter.write_file(self.robot_name,
-                    store.content._dictionary[self.robot_name]["position"],
-                    store.content._dictionary[self.robot_name]["battery"],
-                    store.content._dictionary[self.robot_name]["goal"],
-                    store.content._dictionary[self.robot_name]["dock"],
+                    self.content._dictionary["position"],
+                    self.content._dictionary["battery"],
+                    self.content._dictionary["goal"],
+                    self.content._dictionary["dock"],
                     "-best_effort")
             self.get_logger().debug(
                     "filename: %s "
@@ -142,10 +143,10 @@ class RobotInformationReader(Node):
                     "store._dock: %s "
                     % (
                         filename,
-                        store.content._dictionary[self.robot_name]["position"],
-                        store.content._dictionary[self.robot_name]["battery"],
-                        store.content._dictionary[self.robot_name]["goal"],
-                        store.content._dictionary[self.robot_name]["dock"]
+                        self.content._dictionary["position"],
+                        self.content._dictionary["battery"],
+                        self.content._dictionary["goal"],
+                        self.content._dictionary["dock"]
                         ) 
                     )
 
