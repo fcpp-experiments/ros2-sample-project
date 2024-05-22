@@ -14,7 +14,3 @@ DEFAULT_QOS_TOPIC       = qos_profile_sensor_data
 BATTERY_QOS_TOPIC       = qos_profile_sensor_data
 
 POLL_WRITER_SECONDS     = 0.5
-
-ROBOTS_PREFIX           = "tb3_"
-ROBOTS_LENGTH           = 10
-ROBOTS = [ROBOTS_PREFIX+str(i) for i in range(1, ROBOTS_LENGTH+1)]
