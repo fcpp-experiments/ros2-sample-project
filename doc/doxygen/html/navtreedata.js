@@ -54,6 +54,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
@@ -63,11 +64,11 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"CMakeCCompilerId_8c.html",
-"classgoal_1_1parser_1_1GoalParser.html",
-"dir_dc9e76b8d767069bc018f3ef1de9bc9d.html",
-"namespaceldlidar.html#a170d58b5f34b32c9ef29bc5271573a35a5218a9f4504e0999b98f97f482c23158",
-"structfcpp_1_1coordination_1_1tags_1_1goal__priority.html"
+"",
+"classldlidar_1_1LDLidarDriver.html#a09b4b46816684bc955a9504c4bbbc764",
+"dir_fe01412f74ac8249a2441d37383cb508.html",
+"namespaceldlidar.html#ab76d3a30bfb2cea1715af1066e6ade29",
+"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__current__step.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

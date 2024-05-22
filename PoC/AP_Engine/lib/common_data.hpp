@@ -47,13 +47,6 @@ O& operator<<(O& o, node_type s) {
     return o;
 }
 
-// TODO: maybe delete this enum?
-enum class robot_phase
-{
-    IDLE,
-    GOAL_EXECUTION
-};
-
 struct RobotStatus {       
     float pos_x;
     float pos_y;

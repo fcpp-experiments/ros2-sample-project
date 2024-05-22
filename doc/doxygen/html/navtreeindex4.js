@@ -1,14 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"structfcpp_1_1coordination_1_1tags_1_1goal__priority.html":[1,0,1,0,0,40],
-"structfcpp_1_1coordination_1_1tags_1_1goal__source.html":[1,0,1,0,0,39],
-"structfcpp_1_1coordination_1_1tags_1_1goal__step.html":[1,0,1,0,0,42],
-"structfcpp_1_1coordination_1_1tags_1_1goal__subcode.html":[1,0,1,0,0,41],
-"structfcpp_1_1coordination_1_1tags_1_1left__color.html":[1,0,1,0,0,7],
-"structfcpp_1_1coordination_1_1tags_1_1node__battery__charge.html":[1,0,1,0,0,28],
-"structfcpp_1_1coordination_1_1tags_1_1node__color.html":[1,0,1,0,0,6],
-"structfcpp_1_1coordination_1_1tags_1_1node__ext__docking__status.html":[1,0,1,0,0,19],
-"structfcpp_1_1coordination_1_1tags_1_1node__ext__goal.html":[1,0,1,0,0,23],
 "structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__current__step.html":[1,0,1,0,0,18],
 "structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__status.html":[1,0,1,0,0,17],
 "structfcpp_1_1coordination_1_1tags_1_1node__ext__goal__update__info.html":[1,0,1,0,0,21],
@@ -74,9 +65,5 @@ var NAVTREEINDEX4 =
 "writer_8py.html#a704e7f04eab2b43da1a3fb7b16ec8fa2":[2,0,4,0,0,0,2,4],
 "writer_8py.html#a8ada81dcdbb630cff36c4a5d306e9a85":[2,0,4,0,0,0,2,6],
 "writer_8py.html#ab013b2a5be44379ea01520fe6b50089a":[2,0,4,0,0,0,2,3],
-"writer_8py.html#ac64363241a075c6dc5403339c43c60dd":[2,0,4,0,0,0,2,1],
-"":[0,0,9],
-"":[0,0,10],
-"":[0,0,8],
-"":[0,0,7]
+"writer_8py.html#ac64363241a075c6dc5403339c43c60dd":[2,0,4,0,0,0,2,1]
 };

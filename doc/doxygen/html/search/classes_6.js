@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ilogrealization_715',['ILogRealization',['../classILogRealization.html',1,'']]],
-  ['inputgoal_716',['InputGoal',['../structInputGoal.html',1,'']]]
+  ['ilogrealization_710',['ILogRealization',['../classILogRealization.html',1,'']]],
+  ['inputgoal_711',['InputGoal',['../structInputGoal.html',1,'']]]
 ];

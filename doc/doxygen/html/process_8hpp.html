@@ -92,7 +92,9 @@ $(document).ready(function(){initNavTree('process_8hpp.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">process.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -100,7 +102,31 @@ $(document).ready(function(){initNavTree('process_8hpp.html',''); initResizable(
 
 <p>macro utils for process management.  
 <a href="#details">More...</a></p>
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &quot;<a class="el" href="common__data_8hpp_source.html">lib/common_data.hpp</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for process.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="process_8hpp__incl.png" border="0" usemap="#aPoC_2AP__Engine_2lib_2process_8hpp" alt=""/></div>
+<map name="aPoC_2AP__Engine_2lib_2process_8hpp" id="aPoC_2AP__Engine_2lib_2process_8hpp">
+<area shape="rect" title="macro utils for process management." alt="" coords="245,5,455,32"/>
+<area shape="rect" href="common__data_8hpp.html" title="data common to AP and FW." alt="" coords="277,80,423,107"/>
+<area shape="rect" title=" " alt="" coords="637,379,692,405"/>
+<area shape="rect" title=" " alt="" coords="97,379,208,405"/>
+<area shape="rect" title=" " alt="" coords="5,379,63,405"/>
+<area shape="rect" title=" " alt="" coords="778,155,837,181"/>
+<area shape="rect" href="feedback__parser_8h.html" title="Parse feedback files." alt="" coords="285,155,415,181"/>
+<area shape="rect" title=" " alt="" coords="243,379,315,405"/>
+<area shape="rect" title=" " alt="" coords="173,229,252,256"/>
+<area shape="rect" title=" " alt="" coords="277,229,338,256"/>
+<area shape="rect" title=" " alt="" coords="362,229,423,256"/>
+<area shape="rect" title=" " alt="" coords="447,229,517,256"/>
+<area shape="rect" href="poc__config_8hpp.html" title="Main configuration of the AP Engine." alt="" coords="541,229,652,256"/>
+<area shape="rect" title=" " alt="" coords="403,379,457,405"/>
+<area shape="rect" title=" " alt="" coords="551,304,602,331"/>
+<area shape="rect" href="poc__utils_8hpp.html" title=" " alt="" coords="314,304,413,331"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="process_8hpp__dep__incl.png" border="0" usemap="#aPoC_2AP__Engine_2lib_2process_8hppdep" alt=""/></div>
@@ -117,6 +143,21 @@ This graph shows which files directly or indirectly include this file:</div>
 Macros</h2></td></tr>
 <tr class="memitem:a2086082766451938b2fce1733aeab37c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="process_8hpp.html#a2086082766451938b2fce1733aeab37c">PROCESS</a>(NewGoalsList,  code)</td></tr>
 <tr class="separator:a2086082766451938b2fce1733aeab37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a56d9f95e38c51b120c2929154bffba0e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a> = std::unordered_map&lt; <a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a>, times_t, fcpp::common::hash&lt; <a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a> &gt; &gt;</td></tr>
+<tr class="memdesc:a56d9f95e38c51b120c2929154bffba0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">A representation of result of spawn process.  <a href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">More...</a><br /></td></tr>
+<tr class="separator:a56d9f95e38c51b120c2929154bffba0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aafe39cc9916150f8f0c01cee75a82922"><td class="memItemLeft" align="right" valign="top">FUN void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">termination_logic</a> (ARGS, status &amp;s, <a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a> const &amp;)</td></tr>
+<tr class="memdesc:aafe39cc9916150f8f0c01cee75a82922"><td class="mdescLeft">&#160;</td><td class="mdescRight">Termination logic using share (see SHARE termination in ACSOS22 paper)  <a href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">More...</a><br /></td></tr>
+<tr class="separator:aafe39cc9916150f8f0c01cee75a82922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04525df3c51fc1aea25d5c41f590501d"><td class="memItemLeft" align="right" valign="top">FUN void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="process_8hpp.html#a04525df3c51fc1aea25d5c41f590501d">manage_termination</a> (ARGS, <a class="el" href="common__data_8hpp.html#a6a276b85e2da28c5f9c3dbce61c55682">node_type</a> nt, <a class="el" href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a> &amp;r)</td></tr>
+<tr class="memdesc:a04525df3c51fc1aea25d5c41f590501d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manage termination of the spawn processes.  <a href="process_8hpp.html#a04525df3c51fc1aea25d5c41f590501d">More...</a><br /></td></tr>
+<tr class="separator:a04525df3c51fc1aea25d5c41f590501d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>macro utils for process management. </p>
@@ -146,17 +187,107 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="namespacefcpp_1_1coordination.html#a7b5ae87f57b762c5b0cae722d4b70899">spawn_result_type</a> r =  coordination::spawn(CALL, [&amp;](<a class="code" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a> <span class="keyword">const</span>&amp; g){ \</div>
-<div class="line">        status s = status::internal_output; <a class="code" href="namespacefcpp_1_1coordination.html#a88890933d2bc5c5c340392dc6a50e734">\</a></div>
-<div class="line"><a class="code" href="namespacefcpp_1_1coordination.html#a88890933d2bc5c5c340392dc6a50e734">        code \</a></div>
-<div class="line"><a class="code" href="namespacefcpp_1_1coordination.html#a88890933d2bc5c5c340392dc6a50e734">        termination_logic</a>(CALL, s, g); \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <a class="code" href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a> r =  coordination::spawn(CALL, [&amp;](<a class="code" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a> <span class="keyword">const</span>&amp; g){ \</div>
+<div class="line">        status s = status::internal_output; <a class="code" href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">\</a></div>
+<div class="line"><a class="code" href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">        code \</a></div>
+<div class="line"><a class="code" href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">        termination_logic</a>(CALL, s, g); \</div>
 <div class="line">        return make_tuple(node.current_time(), s); \</div>
 <div class="line">    }, NewGoalsList); \</div>
 <div class="line">    manage_termination(CALL, nt, r); \</div>
-<div class="ttc" id="anamespacefcpp_1_1coordination_html_a7b5ae87f57b762c5b0cae722d4b70899"><div class="ttname"><a href="namespacefcpp_1_1coordination.html#a7b5ae87f57b762c5b0cae722d4b70899">fcpp::coordination::spawn_result_type</a></div><div class="ttdeci">std::unordered_map&lt; goal_tuple_type, times_t, fcpp::common::hash&lt; goal_tuple_type &gt; &gt; spawn_result_type</div><div class="ttdef"><b>Definition:</b> ap_engine.hpp:37</div></div>
-<div class="ttc" id="anamespacefcpp_1_1coordination_html_a88890933d2bc5c5c340392dc6a50e734"><div class="ttname"><a href="namespacefcpp_1_1coordination.html#a88890933d2bc5c5c340392dc6a50e734">fcpp::coordination::termination_logic</a></div><div class="ttdeci">FUN void termination_logic(ARGS, status &amp;s, goal_tuple_type const &amp;)</div><div class="ttdoc">Termination logic using share (see SHARE termination in ACSOS22 paper)</div><div class="ttdef"><b>Definition:</b> ap_engine.hpp:452</div></div>
 <div class="ttc" id="anamespacefcpp_1_1option_1_1data_html_a7102973ff5d37d7a3db5d6c868ab7d88"><div class="ttname"><a href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">fcpp::option::data::goal_tuple_type</a></div><div class="ttdeci">common::tagged_tuple_t&lt; goal_action, string, goal_code, string, goal_pos_start_x, float, goal_pos_start_y, float, goal_orient_start_w, float, goal_pos_end_x, float, goal_pos_end_y, float, goal_orient_end_w, float, goal_source, string, goal_priority, int, goal_subcode, string, goal_step, int &gt; goal_tuple_type</div><div class="ttdoc">A representation of goal properties using tagged_tuple.</div><div class="ttdef"><b>Definition:</b> ap_engine_setup.hpp:248</div></div>
+<div class="ttc" id="aprocess_8hpp_html_a56d9f95e38c51b120c2929154bffba0e"><div class="ttname"><a href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a></div><div class="ttdeci">std::unordered_map&lt; goal_tuple_type, times_t, fcpp::common::hash&lt; goal_tuple_type &gt; &gt; spawn_result_type</div><div class="ttdoc">A representation of result of spawn process.</div><div class="ttdef"><b>Definition:</b> process.hpp:19</div></div>
+<div class="ttc" id="aprocess_8hpp_html_aafe39cc9916150f8f0c01cee75a82922"><div class="ttname"><a href="process_8hpp.html#aafe39cc9916150f8f0c01cee75a82922">termination_logic</a></div><div class="ttdeci">FUN void termination_logic(ARGS, status &amp;s, goal_tuple_type const &amp;)</div><div class="ttdoc">Termination logic using share (see SHARE termination in ACSOS22 paper)</div><div class="ttdef"><b>Definition:</b> process.hpp:32</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a56d9f95e38c51b120c2929154bffba0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d9f95e38c51b120c2929154bffba0e">&#9670;&nbsp;</a></span>spawn_result_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a> =  std::unordered_map&lt;<a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a>, times_t, fcpp::common::hash&lt;<a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a>&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A representation of result of spawn process. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a04525df3c51fc1aea25d5c41f590501d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04525df3c51fc1aea25d5c41f590501d">&#9670;&nbsp;</a></span>manage_termination()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FUN void manage_termination </td>
+          <td>(</td>
+          <td class="paramtype">ARGS&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="common__data_8hpp.html#a6a276b85e2da28c5f9c3dbce61c55682">node_type</a>&#160;</td>
+          <td class="paramname"><em>nt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="process_8hpp.html#a56d9f95e38c51b120c2929154bffba0e">spawn_result_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Manage termination of the spawn processes. </p>
+
+</div>
+</div>
+<a id="aafe39cc9916150f8f0c01cee75a82922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe39cc9916150f8f0c01cee75a82922">&#9670;&nbsp;</a></span>termination_logic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">FUN void termination_logic </td>
+          <td>(</td>
+          <td class="paramtype">ARGS&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">status &amp;&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacefcpp_1_1option_1_1data.html#a7102973ff5d37d7a3db5d6c868ab7d88">goal_tuple_type</a> const &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Termination logic using share (see SHARE termination in ACSOS22 paper) </p>
+
 </div>
 </div>
 </div><!-- contents -->
