@@ -1,0 +1,91 @@
+---
+- r1:
+  name: 'tb3_1'
+  x_pose: 2.80
+  y_pose: 0.5
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
+- r2:
+  name: 'tb3_2'
+  x_pose: 2.8
+  y_pose: 1.5
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
+- r3:
+  name: 'tb3_3'
+  x_pose: 2.8
+  y_pose: 2.6
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
+- r4:
+  name: 'tb3_4'
+  x_pose: 2.8
+  y_pose: 4.75
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
+- r5:
+  name: 'tb3_5'
+  x_pose: 2.8
+  y_pose: 5.50
+  z_pose: 0.01
+  roll: 0.0
+  pitch: 0.0
+  yaw: 3.14
+  proxy_domain_id: 100
+#- r6:
+#  name: 'tb3_6'
+#  x_pose: 1.45
+#  y_pose: 1.5
+#  z_pose: 0.01
+#  roll: 0.0
+#  pitch: 0.0
+#  yaw: 0.0
+#  proxy_domain_id: 100
+#- r7:
+#  name: 'tb3_7'
+#  x_pose: 1.45
+#  y_pose: 2.5
+#  z_pose: 0.01
+#  roll: 0.0
+#  pitch: 0.0
+#  yaw: 0.0
+#  proxy_domain_id: 100
+#- r8:
+#  name: 'tb3_8'
+#  x_pose: 1.45
+#  y_pose: 5.0
+#  z_pose: 0.01
+#  roll: 0.0
+#  pitch: 0.0
+#  yaw: 0.0
+#  proxy_domain_id: 100
+#- r9:
+#  name: 'tb3_9'
+#  x_pose: 1.45
+#  y_pose: 0.5
+#  z_pose: 0.01
+#  roll: 0.0
+#  pitch: 0.0
+#  yaw: 0.0
+#  proxy_domain_id: 100
+#- r10:
+#  name: 'tb3_10'
+#  x_pose: 1.45
+#  y_pose: 6.0
+#  z_pose: 0.01
+#  roll: 0.0
+#  pitch: 0.0
+#  yaw: 0.0
+#  proxy_domain_id: 100
